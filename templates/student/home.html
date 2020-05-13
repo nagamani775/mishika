@@ -1,0 +1,5 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+  <img src="{% static 'images/product.jpg' %}" alt="nag" >
+       <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+{% endblock content %}
